@@ -2,7 +2,7 @@
 require('../dist/test-stubs.js');
 
 // Load custom require function
-const SCHLUPFLOCH = require('../dist/schlupfloch.js');
+const SCHLUPFLOCH = window.schlupfloch;
 
 describe('require modules', () => {
   const sum = SCHLUPFLOCH('./test/app/math/sum.js');
