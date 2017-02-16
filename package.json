@@ -1,0 +1,15 @@
+{
+  "name": "webpack-schlupfloch",
+  "version": "0.0.1",
+  "description": "Create a Schlupfloch (loophole) in your webpack build for easy unit testing",
+  "main": "src/schlupfloch.js",
+  "author": "p0wl",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^18.1.0",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "webpack && jest"
+  }
+}
