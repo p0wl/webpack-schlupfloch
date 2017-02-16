@@ -1,0 +1,1 @@
+module.exports = 'THE_SECRET_IS_ihatejs';
